@@ -1,11 +1,16 @@
 * { margin: 0; padding: 0; }
+html {
+  background: -moz-linear-gradient(top, #D9DBDB 0%, #ADADAD 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D9DBDB), color-stop(100%,#ADADAD)); /* webkit */
+}
 body {
   font-family: Cabin, 'Lucida Grande', Verdana, sans-serif;
   background-color: #d9dbdb;
   overflow: hidden;
   color: #444;
   font-size: 16px;
-  margin-top: 100px;
+/*  margin-top: 100px;*/
+  padding-top:200px;
 }
 H1 {
   font-family: 'Syncopate', serif;
@@ -63,23 +68,22 @@ li img {
   border:none;
   position: absolute;
   bottom: -400px;
-  right: -460px;
+  right: -480px;
   -moz-box-shadow: -5px 5px 10px #AAA;
   -webkit-box-shadow: -5px 5px 10px #AAA;
   box-shadow: -5px 5px 10px #AAA;
-  opacity: 0;
 }
 
 /*.peek-frame {*/
 li:hover img {
   right: -80px;
+  bottom: -300px;
   -moz-transform: rotate(5deg);
   -webkit-transform: rotate(5deg);
   transform: rotate(5deg);
   transform-origin: bottom right;
   -moz-transform-origin: bottom right;
   -webkit-transform-origin: bottom right;
-  opacity: 1;
 }
 
 span.footer {
