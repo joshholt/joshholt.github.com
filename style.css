@@ -81,3 +81,12 @@ li:hover img {
   -webkit-transform-origin: bottom right;
   opacity: 1;
 }
+
+span.footer {
+  width: 320px;
+  bottom: 10px;
+  right:00px;
+  font-family: 'Architects Daughter', "Courier New", Courier, mono;
+  font-size: 13px; 
+  position: absolute;
+}
